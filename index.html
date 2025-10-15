@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eu Te Amoo !!</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+
+	<header class="cabecalho">
+		
+		<div class="logo">
+			<img src="image/logonet.png" alt="" width="50px">
+		</div>
+
+		<nav>
+			<a href="#">Inicio</a>
+			<a href="#">Series</a>
+			<a href="#">Filmes</a>
+			<a href="#">Minha lista</a>
+		</nav>
+
+	</header>
+
+	<section class="banner">
+		<div class="conteudo">
+			<p class="titulo">Amanda Rafaelly</p>
+			<p class="detalhes">
+				<span>3 de Agosto - 2 Temporadas </span>
+				<span class="estrelas">
+					<i class="fa-solid fa-star" style="color: #cd0e0e;"></i>
+					<i class="fa-solid fa-star" style="color: #cd0e0e;"></i>
+					<i class="fa-solid fa-star" style="color: #cd0e0e;"></i>
+					<i class="fa-solid fa-star" style="color: #cd0e0e;"></i>
+					<i class="fa-solid fa-star" style="color: #cd0e0e;"></i>
+				</span>
+
+				<p class="descricao">Eu falo eu te amo realmente eu to escolhendo você pra seguir minha vida e não importa a situação se a gente estiver rindo ou chateados eu sempre vou está do seu lado te escolhendo, te apoiando, procurando ser o melhornpra você.
+				<br>
+				<br>
+				Eu tenho certeza que vc é o amor da minha vida Amanda Rafaelly.
+				<br>
+				<br>
+				Eu te amooooo <i class="fa-regular fa-heart" style="color: #ff0000;"></i> .
+				</p>
+			
+			</p>
+
+			<div class="botoes">
+				<button><i class="fa-solid fa-play"></i> Continuar</button>
+				<button><i class="fa-solid fa-star"></i> Favoritos</button>
+			</div>
+
+		</div>
+
+
+	</section>
+
+	<section class="momentos">
+		<h2>Nossos Melhores Momentos</h2>
+
+		<div class="swiper">
+		  <!-- Additional required wrapper -->
+		  <div class="swiper-wrapper">
+		    <!-- Slides -->
+		    <div class="swiper-slide"> <img src="./image/8.jpg"> </div>
+		    <div class="swiper-slide"> <img src="./image/5.jpg"> </div>
+		    <div class="swiper-slide"> <img src="./image/9.jpg"> </div>
+		    <div class="swiper-slide"> <img src="./image/7.jpg"> </div>
+		    <div class="swiper-slide"> <img src="./image/2.jpg"> </div>
+		    <div class="swiper-slide"> <img src="./image/1.jpg"> </div>
+		    ...
+		  </div>
+
+		</div>
+
+
+	</section>
+
+	<footer>
+		2025 - Eduardo
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+	
+	<script>
+		const swiper = new Swiper('.swiper', {
+		
+		  loop: true,
+		  autoplay:{
+		  	delay: 2500,
+		  	disableOnInteraction:false,
+		  },
+		  slidesPerView: 2,
+		  spaceBetween: 10,
+		  loop:true,
+		  breakpoints:{
+		  	600: {
+		  		loop:true,
+		  		slidesPerView:3,
+		  		spaceBetween:15,
+		  	},
+		  	900: {
+		  		loop:true,
+		  		slidesPerView:4,
+		  		spaceBetween:40,
+		  	}
+		  }
+
+		});
+	</script>
+</body>
+</html>
